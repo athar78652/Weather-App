@@ -18,7 +18,7 @@ function App() {
           error && setError(false);
           return res.json();
         } else {
-          throw new Error("Something went wrong");
+          throw new Error("Something went wrong.");
         }
       })
       .then((data) => {
